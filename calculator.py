@@ -16,29 +16,29 @@ def div(a, b):
 
 
 while True:
-	print('A - Addition' + '\n' + 'B - Subtraction' + '\n' + 'C - Multiplication' + '\n' + 'D - Division' + '\n' + 'E - Exit' + '\n')
+	print('MASSA AWUKS CALCULATOR' + '\n' + 'A - Addition' + '\n' + 'B - Subtraction' + '\n' + 'C - Multiplication' + '\n' + 'D - Division' + '\n' + 'E - Exit' + '\n')
  
 	operation = input('What are we doing today? ').lower()
  
 	if operation == 'a':
 		print('Addition')
-		a = float(input('First number? '))
-		b = float(input('Second number? '))
+		a = int(input('First number? '))
+		b = int(input('Second number? '))
 		add(a, b)
 	elif operation == 'b':
 		print('Subtraction')
-		a = float(input('First number? '))
-		b = float(input('Second number? '))
+		a = int(input('First number? '))
+		b = int(input('Second number? '))
 		sub(a, b)
 	elif operation == 'c':
 		print('Multiplication')
-		a = float(input('First number? '))
-		b = float(input('Second number? '))
+		a = int(input('First number? '))
+		b = int(input('Second number? '))
 		mul(a, b)
 	elif operation == 'd':
 		print('Division')
-		a = float(input('First number? '))
-		b = float(input('Second number? '))
+		a = int(input('First number? '))
+		b = int(input('Second number? '))
 		div(a, b)
 	elif operation == 'e':
 		print('See ya aligators')
